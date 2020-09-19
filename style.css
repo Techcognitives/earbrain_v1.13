@@ -1,0 +1,850 @@
+
+.navBar{
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    margin: 0px;
+
+   }
+.home-logo{
+    float: left;
+    margin-left: 30px;
+
+   }
+  
+/*.menue{
+    float: right;
+    font-size: 18px;
+    padding-right: 22px;
+    padding-top: 40px;
+
+
+}*/
+.clear{
+    clear: both;
+  }
+.find{
+    float: right;
+    font-size: 18px;
+    padding-top: 40px;
+    width: 210px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 18px/21px Arial;
+    letter-spacing: 0px;
+    color: #626262;
+    text-transform: uppercase;
+    opacity: 1;
+   }
+.learn{
+    float: right;
+    font-size: 18px;
+    padding-top: 40px;
+    width: 130px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 18px/21px Arial;
+   letter-spacing: 0px;
+   color: #626262;
+   text-transform: uppercase;
+   opacity: 1;
+  }
+a:link {
+       text-decoration: none;
+   }
+  .headLines{   
+   position: absolute;
+    top: 143px;
+    left: 0px;
+    width: 1920px;
+    height: 936px;
+    background: transparent linear-gradient(89deg, #FFFFFFE6 0%, #FBFBFB4D 15%, #E4E4E400 30%, #E5E5E500 48%, #80808000 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+    
+  }
+  .headlie1{
+    position: absolute;
+    top: 143px;
+    left: 215px;
+    width: 761px;
+    height: 354px;
+    text-align: left;
+font: normal normal 300 85px/112px Roboto;
+font-family: 'Roboto', sans-serif;
+letter-spacing: 0px;
+color: #626262;
+opacity: 1;
+
+  }
+  .healine2{
+    position: absolute;
+    top: 549px;
+    left: 215px;
+    width: 748px;
+    height: 141px;
+    text-align: left;
+    text-align: left;
+font: normal normal normal 50px/66px Roboto;
+letter-spacing: 0px;
+color: #EA983E;
+opacity: 1;
+font-size: 50px;
+ }
+
+ .video1{
+    position: absolute;
+    top: 743px;
+left: 215px;
+width: 232px;
+height: 142px;
+background: transparent url('img/Screen Shot 2020-09-11 at 11.37.55 AM.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+ }
+ .healine3{
+    position: absolute;
+    top: 758px;
+left: 484px;
+width: 309px;
+height: 124px;
+text-align: left;
+font: normal normal 300 43px/57px Roboto;
+letter-spacing: 0px;
+color: #969696;
+opacity: 1;
+ }
+.shade{
+    position: absolute;
+    top: 900px;
+left: 0px;
+width: 1920px;
+height: 29px;
+transform: matrix(-1, 0, 0, -1, 0, 0);
+background: transparent linear-gradient(90deg, var(--unnamed-color-ffffff) 0%, var(--unnamed-color-ffffff) 22%, #EA983E 100%) 0% 0% no-repeat padding-box;
+background: transparent linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 22%, #EA983E 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.researchers{
+    position: absolute;
+    top: 1105px;
+    left: 300px;
+    width: 576px;
+    height: 256px;
+    text-align: left;
+    font: normal normal 300 60px/79px Roboto;
+    letter-spacing: 0px;
+    color: #EA9A41;
+    opacity: 1;
+}
+
+.exploring{
+    position: absolute;
+    top: 1468px;
+left: 300px;
+width: 676px;
+height: 296px;
+text-align: left;
+font: normal normal 300 24px/32px Roboto;
+letter-spacing: 0px;
+color: #838383;
+}
+.findAD{
+    position: absolute;
+    top: 1812px;
+left: 300px;
+width: 396px;
+height: 76px;
+color: #FFFFFF;
+border: 2px solid var(--unnamed-color-ffffff);
+background: #F79425 0% 0% no-repeat padding-box;
+border: 2px solid #FFFFFF;
+opacity: 1;
+}
+.brainLogo{
+    position: absolute;
+    top: 1228px;
+left: 1017px;
+width: 758px;
+height: 584px
+background: transparent url('img/Brain Gears.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.container3{
+    position: absolute;
+    top: 2007px;
+    left: 0px;
+    width: 1920px;
+    height: 902px;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.slideContainer{
+    position: absolute;
+    top: 181px;
+    left: 285px;
+    width: 565px;
+    height: 541px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 50px #00000029;
+    opacity: 1;
+}
+.american{
+    position: absolute;
+    top: 0px;
+left: 34px;
+width: 410px;
+height: 63px;
+text-align: center;
+font: normal normal 300 48px/32px Roboto;
+letter-spacing: 0px;
+color: #5DACE3;
+font-size: 48px;
+font-family: 'Roboto';
+}
+.mci{
+    position: absolute;
+    top: 267px;
+left: 3px;
+width: 472px;
+height: 32px;
+text-align: center;
+font: normal normal normal 24px/32px Roboto;
+letter-spacing: 0px;
+color: #6C6C6C;
+}
+.major{
+position: absolute;
+top: 100px;
+left: 1101px;
+width: 553px;
+height: 480px;
+text-align: left;
+font: normal normal 300 90px/118px Roboto;
+letter-spacing: 0px;
+color: #5DACE3;
+opacity: 1;
+font-size: 90px;
+}
+.findAD2{
+position: absolute;
+top: 676px;
+left: 1101px;
+width: 374px;
+height: 35px;
+text-align: left;
+text-decoration: underline;
+font: normal normal medium 24px/32px Roboto;
+letter-spacing: 0px;
+color: #F79425;
+text-transform: uppercase;
+opacity: 1;
+}
+.container4{
+    position: absolute;
+    top: 3013px;
+    width: 1920px;
+    height: 650px;
+opacity: 1;
+}
+.group4{
+position: absolute;
+    left: 399px;
+    width: 413px;
+    height: 557px;
+}
+.hearing{
+    position: absolute;
+    left: 974px;
+width: 581px;
+height: 485px;
+text-align: left;
+font: normal normal 300 60px/32px Roboto;
+letter-spacing: 0px;
+color: #5DACE3;;
+}
+.urAD{
+    position: absolute;
+    top: 100px;
+    left: 974px;
+    width: 581px;
+height: 32px;
+text-align: left;
+font: normal normal normal 24px/32px Roboto;
+letter-spacing: 0px;
+color: #6C6C6C;
+}
+.thriveVideo{
+    position: absolute;
+
+    top: 520px;
+    left: 974px;
+    width: 232px;
+    height: 142px;
+    background: transparent url('img/Screen Shot 2020-09-11 at 11.54.54 AM.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.thriveTex{
+    position: absolute;
+    top: 520px;
+left: 1231px;
+width: 388px;
+height: 115px;
+text-align: left;
+font: normal normal 300 39px/52px Roboto;
+letter-spacing: 0px;
+color: #969696;
+opacity: 1;
+}
+.container5{
+    position: absolute;
+    top: 3806px;
+left: 0px;
+width: 1920px;
+height: 640px;
+border: 1px solid #707070;
+opacity: 1;
+}
+.hearingLoss{
+    position: absolute;
+    top: 79px;
+    left: 300px;
+    width: 585px;
+height: 79px;
+color: var(--unnamed-color-ffffff);
+text-align: left;
+font: normal normal 300 60px/45px Roboto;
+letter-spacing: 0px;
+color: rgb(110, 96, 124);
+}
+.youAudio{
+    position: absolute;
+    top: 328px;
+    left: 300px;
+    width: 677px;
+    height: 45px;
+    color: var(--unnamed-color-ffffff);
+text-align: left;
+font: normal normal normal 34px/45px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+font-size: 34px;
+}
+.btn5{
+    position: absolute;
+    top: 551px;
+    left: 324px;
+width: 374px;
+height: 35px;
+color: var(--unnamed-color-ffffff);
+text-align: center;
+font: normal normal medium 24px/32px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+    
+}
+.container6{
+    position: absolute;
+    top: 640px;
+left: 0px;
+width: 1920px;
+height: 902px;
+background: #F79425D9 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.headLines6{
+    position: absolute;
+    top: 0px;
+left: 0px;
+width: 1920px;
+height: 902px;
+background: #F79425D9 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.remember{
+    position: absolute;
+    top: 125px;    
+    left: 557px;
+width: 806px;
+height: 272px;
+color: var(--unnamed-color-ffffff);
+text-align: center;
+font: normal normal normal 94px/90px SignPainter;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+}
+.btn6{
+    position: absolute;
+    top: 680px;
+   left: 640px;
+   width: 640px;
+   height: 52px; 
+   border: 2px solid var(--unnamed-color-ffffff);
+  border: 2px solid #FFFFFF;
+  opacity: 1;
+  background: #F79425 0% 0% no-repeat padding-box;
+  color: white;
+}
+.container7{
+    position: absolute;
+    top: 1546px;
+left: 0px;
+width: 1920px;
+height: 660px;
+background: #FAFAFA 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.logo7{
+    position: absolute;
+    top: 130px;
+    left: 505px;
+width: 331px;
+height: 226px;
+background: transparent url('img/Ear Brain Health Logo.png') 0% 0% no-repeat padding-box;
+opacity: 1; 
+}
+.how{
+    position: absolute;
+    top: 130px;
+    left: 913px;
+width: 503px;
+height: 111px;
+text-align: center;
+font: normal normal 300 42px/55px Roboto;
+letter-spacing: 0px;
+color: #F79425;
+text-transform: uppercase;
+opacity: 1;
+}
+.btn7{
+    position: absolute;
+    top: 300px;
+    left: 948px;
+width: 434px;
+height: 79px;
+background: #F79425 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #F79425;
+opacity: 1;
+}
+.learnBT{
+    top: 300px;
+    left: 1038px;
+width: 243px;
+height: 45px;
+    color: var(--unnamed-color-ffffff);
+text-align: center;
+font: normal normal normal 32px/43px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+}
+.container8{
+    position: absolute;
+    top: 2070px;
+
+left: 0px;
+width: 1920px;
+height: 660px;
+background: white;
+opacity: 1;
+}
+.journal{
+    position: absolute;
+    top: 24px;
+left: 350px;
+width: 1100px;
+height: 24px;
+text-align: center;
+font: normal normal 300 18px/24px Roboto;
+letter-spacing: 0px;
+color: #969696;
+font-size: 18px;
+}
+.spons{
+    position: absolute;
+    top: 89px;
+    left: 883px;
+    /* width: 152px; */
+    height: 43px;
+    text-align: center;
+    font: normal normal normal 39px/46px SignPainter;
+    letter-spacing: 0px;
+    color: #696969;
+    opacity: 1;
+}
+
+.footImage{
+    position: absolute;
+    top: 175px;
+left: 0px;
+width: 1920px;
+height: 420px;
+background: transparent url('img/Screen Shot 2020-09-09 at 4.13.33 PM.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+
+/*search pages */
+.searchnavBar{
+    top: 0px;
+left: 0px;
+width: 1920px;
+height: 173px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+}
+.sLearn{
+    float: right;
+    font-size: 18px;
+    padding-top: 40px;
+    width: 210px;
+    height: 22px;
+    text-align: left;
+font: normal normal normal 18px/21px Arial;
+letter-spacing: 0px;
+color: #F79425;
+text-transform: uppercase;
+opacity: 1;
+}
+.sFind{
+    float: right;
+    font-size: 18px;
+    padding-top: 40px;
+    width: 210px;
+    height: 22px;
+    text-align: left;
+font: normal normal normal 18px/21px Arial;
+letter-spacing: 0px;
+color: #F79425;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.seacr_box{
+    position: absolute;
+    top: 181px;
+    left: 0px;
+    width: 1920px;
+    height: 877px;
+    background: #D57E1DD9 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.head{
+    position: absolute;
+top: 230px;
+left: 555px;
+width: 806px;
+height: 88px;
+color: var(--unnamed-color-ffffff);
+text-align: center;
+font: normal normal normal 94px/90px SignPainter;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+font-family: "SignPainter";
+}
+.name{
+    position: absolute;
+    top: 480px;
+left: 630px;
+width: 660px;
+height: 84px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+opacity: 1;
+}
+.email{
+    position: absolute;
+
+    top: 575px;
+left: 630px;
+width: 660px;
+height: 84px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+opacity: 1;
+}
+.zip{
+    position: absolute;
+
+    top: 671px;
+left: 630px;
+width: 660px;
+height: 84px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+opacity: 1;
+}
+.searchBTN{
+    position: absolute;
+    top: 794px;
+left: 630px;
+width: 660px;
+height: 92px;
+color: white;
+background: #D57E1DD9 0% 0% no-repeat padding-box;
+border: 2px solid var(--unnamed-color-ffffff);
+border: 2px solid #FFFFFF;
+opacity: 1
+}
+.searFTImage{
+    top: 1079px;
+left: 0px;
+width: 1920px;
+height: 420px;
+opacity: 1;
+}
+
+.notfind-container{
+    position: absolute;
+    top: 173px;
+    left: 0px;
+    width: 1920px;
+    height: 906px;
+    background: #292929 0% 0% no-repeat padding-box;
+    opacity: 1;
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+}
+.notfind-pop{
+    position: absolute;
+    top: 324px;
+left: 539px;
+width: 843px;
+height: 579px;
+background: #F79625 0% 0% no-repeat padding-box;
+box-shadow: 0px 25px 40px #00000029;
+border: 1px solid #707070;
+opacity: 1;
+
+}
+.nothead{
+    position: absolute;
+    top: 379px;
+left: 554px;
+width: 806px;
+height: 88px;
+color: var(--unnamed-color-ffffff);
+text-align: center;
+font: normal normal normal 94px/90px SignPainter;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+
+}
+.urAudiologist{
+    position: absolute;
+    top: 480px;
+    left: 629px;
+    width: 660px;
+    height: 84px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.align-center {
+    text-align: center;
+}
+.footer__container {
+    padding: 80px 0;
+}
+.row {
+    margin: 0 auto;
+    max-width: 1328px;
+    padding: 0 20px;
+    width: 100%;
+}
+.footer__logo {
+    margin: 0 auto;
+}
+.logo {
+    display: block;
+    width: 242px;
+    height: 69px;
+    background: url(./images/logo.svg) center no-repeat;
+}
+.footer__list {
+    list-style: none;
+    margin: 20px 0 0 0;
+}
+.footer__list li {
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+    margin: 0 11px;
+}
+.footer__list li:not(:first-child):before {
+    content: "";
+    position: absolute;
+    left: -11px;
+    top: 1px;
+    height: 15px;
+    width: 1px;
+    background: #333;
+}
+.nav--social {
+    margin: 50px 0 0;
+    font-size: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.nav--social li {
+    margin: 0 9px;
+    border-radius: 50%;
+}
+nav li {
+    display: inline-block;
+}
+.bg--gradient {
+    background: -webkit-gradient(linear, left top, left bottom, from(#31c4f2), to(#1673b8));
+    background: linear-gradient(#31c4f2, #1673b8);
+    padding: 2px;
+}
+.nav--social a {
+    font-size: 20px;
+    width: 37px;
+    height: 37px;
+    color: #1673b8;
+    padding: 8px 0 0;
+    border-radius: 50%;
+    background: #fff;
+}
+.hidden, .seoOnly {
+    display: none!important;
+}
+.icon-youtube:before {
+    content: "\e904";
+}
+/*
+
+.enterPraname{
+
+}
+#chech{
+
+}
+.notfindBTN{
+
+}
+
+
+/*
+
+.yrCognitive{
+    position: absolute;
+    top: 315px;
+left: 0px;
+width: 293px;
+height: 32px;
+text-align: left;
+font: normal normal normal 24px/32px Roboto;
+letter-spacing: 0px;
+color: #6C6C6C;
+font-size: 24px;
+} */
+
+/* slide 
+{box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: absolute;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+    position: absolute;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}*/

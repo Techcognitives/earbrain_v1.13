@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <title>Search</title>
+</head>
+
+<body>
+    <div class="navBar">
+        <div class="home-logo">
+            <a href="index.html"><img class="logo-img" src="images\Ear Brain Health Logo-1.png" alt="EarBrain" height="70">
+            </a>
+        </div>
+        <!-- <a class="learn" href="">LEARN MORE</a> -->
+        <a class="findsearch" href="search.html">FIND AN AUDIOLOGIST</a>
+
+        <div class="clear"></div>
+    </div>
+    <div class="seach-container">
+        <div class="container">
+            <img src="images/Container 6 - Map.png" alt="map" style="width:100%;">
+            <div class="text-block">
+                <p class="head">Get Started Now </p>
+                <div class="sedetails">
+                    <div class="name-container">
+                        <input class="name" type="text" placeholder="Name">
+                    </div>
+                    <div class="email-container">
+                        <input type="email" class="email" placeholder="Email">
+                    </div>
+                    <div class="zip-container">
+                        <input type="number" id="searchZipCode" max="99999" class="zip" oninput="validity.valid||(value='');" placeholder="Zip Code">
+                        <!-- <select class="zip" id="states" name="states">
+                            <option class="select-option" value="" disabled selected>State</option>
+                            <option value="AL - Alabama">AL - Alabama </option>
+            <option value="AK - Alaska">AK - Alaska </option>
+            <option value="AZ - Arizona">AZ - Arizona</option>
+            <option value="AR - Arkansas">AR - Arkansas</option>
+            <option value="CA - California">CA - California</option>
+            <option value="CO - Colorado">CO - Colorado</option>
+            <option value="CT - Connecticut">CT - Connecticut</option>
+            <option value="DE - Delaware">DE - Delaware</option>
+            <option value="FL - Florida">FL - Florida</option>
+            <option value="GA-Georgia">GA-Georgia</option>
+            <option value="HI - Hawaii">HI - Hawaii</option>
+            <option value="ID - Idaho">ID - Idaho</option>
+            <option value="IL - Illinois">IL - Illinois</option>
+            <option value="IN - Indiana">IN - Indiana</option>
+            <option value="IA - Iowa">IA - Iowa</option>
+            <option value="KS - Kansas">KS - Kansas</option>
+            <option value="KY - Kentucky">KY - Kentucky</option>
+            <option value="LA-Louisiana"> LA-Louisiana</option>
+            <option value="ME - Maine">ME - Maine</option>
+            <option value="MD - Maryland">MD - Maryland</option>
+            <option value="MA - Massachusetts">MA - Massachusetts</option>
+            <option value="MI - Michigan">MI - Michigan</option>
+            <option value="MN - Minnesota">MN - Minnesota</option>
+            <option value="MS - Mississippi">MS - Mississippi</option>
+            <option value="MO - Missouri">MO - Missouri</option>
+            <option value="MT - Montana">MT - Montana</option>
+            <option value="NE - Nebraska">NE - Nebraska</option>
+            <option value="NV - Nevada">NV - Nevada</option>
+            <option value="NH - New Hampshire">NH - New Hampshire</option>
+            <option value="NJ - New Jersey">NJ - New Jersey</option>
+            <option value="NM - New Mexico">NM - New Mexico</option>
+            <option value="NY - New York">NY - New York</option>
+            <option value="NC - North Carolina">NC - North Carolina</option>
+            <option value="ND - North Dakota">ND - North Dakota</option>
+            <option value="OH - Ohio">OH - Ohio</option>
+            <option value="OK - Oklahoma">OK - Oklahoma</option>
+            <option value="OR - Oregon">OR - Oregon</option>
+            <option value="PA - Pennsylvania">PA - Pennsylvania</option>
+            <option value="RI - Rhode Island">RI - Rhode Island</option>
+            <option value="SC - South Carolina">SC - South Carolina</option>
+            <option value="SD - South Dakota">SD - South Dakota</option>
+            <option value="TN - Tennessee">TN - Tennessee</option>
+            <option value="TX - Texas">TX - Texas</option>
+            <option value="UT - Utah">UT - Utah</option>
+            <option value="VT - Vermont">VT - Vermont</option>
+            <option value="VA - Virginia">VA - Virginia</option>
+            <option value="WA - Washington">WA - Washington</option>
+            <option value="WV - West Virginia">WV - West Virginia</option>
+            <option value="WI - Wisconsin">WI - Wisconsin</option>
+            <option value="WY - Wyoming">WY - Wyoming</option>
+            <option value="DC - District of Columbia">DC - District of Columbia</option>
+            
+                          </select> -->
+                    </div>
+                    <div class="state-container">
+                        <input disabled type="text" id="stateCode" class="zip" placeholder="State">
+                    </div>
+                </div>
+                <div class="search-button">
+                    <a id="mylink" href="javascript:void(0)" onclick="ClickSubmit()"><button type="submit" class="searchBTN"> FIND AN AUDIOLOGIST</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container8">
+            <p class="journal"><span>1. Journal of the American Geriatrics Society, Longitudinal Relationship Between Hearing Aid Use and Cognitive Function in Older 
+                Americans. <br> 2.World Health Organization, Risk Reduction of Cognitive Decline and Dementia, WHO Guidelines 2019. <br> 3.Livingston G, Sommerlad A, Orgeta 
+                V et al. Dementia prevention, intervention, and care. Lancet 2017;390:2673–2734. <br> 4. ACTA, Otorhinolaryngologica Italica, A review of new insights on 
+                the association between hearing loss and cognitive decline in aging, 2016. <br> 5. Acoustical Society of America (ASA); University of Colorado;
+               <a href=" https://www.hearingreview.com/inside-hearing/research/researchers-discover-brain-reorganizes-hearing-loss">https://www.hearingreview.com/inside-hearing/research/researchers-discover-brain-reorganizes-hearing-loss</a> </span></p>
+            <div class="footImage">
+                <p class="spons">Sponsored by</p>
+                <!-- <img class="footImage" src="images/Footer.jpeg" alt="bcgimage">
+               <center>
+                 <img class="youtube" src="images/Cognivue Circles-2.png" alt="bcgimage">
+                  <img class="linkdin" src="images/Cognivue Circles-2.png" alt="bcgimage">
+                  <img class="facebook" src="images/Cognivue Circles-2.png" alt="bcgimage">
+                  <img class="twitter" src="images/Cognivue Circles-2.png" alt="bcgimage">
+                  <img class="instagram" src="images/Cognivue Circles-2.png" alt="bcgimage">
+              </center> -->
+                <div class="footer__container align-center">
+
+                    <div class="row">
+
+                        <div class="logo footer__logo"></div>
+
+                        <!-- <ul class="footer__list">
+          
+                      <li>©2020 Cognivue, Inc.</li>
+          
+                                    <li>7911 Rae Blvd.</li>
+                      
+                                    <li>Victor, NY 14564</li>
+                      
+                                    <li>585.203.1969</li>
+                      
+                    </ul> -->
+
+                        <nav>
+
+                            <ul class="nav--social align-center">
+
+                                <li>
+                                    <span class="hidden">FDA Cleared</span><span class="footer__fda"></span>
+                                </li>
+
+                                <!-- <li class="bg--gradient"><a href="https://www.youtube.com/channel/UCgK7L8adiHRgSDzdBfVjBHg?view_as=subscriber" aria-label="YouTube"><span class="hidden">YouTube</span><span class="icon-youtube"></span></a></li>
+                      
+                                    <li class="bg--gradient"><a href="https://www.linkedin.com/company/cognivue-inc./" aria-label="LinkedIn"><span class="hidden">LinkedIn</span><span class="icon-linkedin"></span></a></li>
+                                  
+                                    <li class="bg--gradient"><a href="https://www.facebook.com/cognivueinc/" aria-label="Facebook"><span class="hidden">Facebook</span><span class="icon-facebook"></span></a></li>
+                      
+                                    <li class="bg--gradient"><a href="https://twitter.com/cognivue" aria-label="Twitter"><span class="hidden">Twitter</span><span class="icon-twitter"></span></a></li>
+                      
+                      
+                      
+                                      <li class="bg--gradient"><a href="https://www.instagram.com/cognivue/" aria-label="Instagram"><span class="hidden">Instagram</span><span class="icon-instagram"></span></a></li> -->
+
+                            </ul>
+
+                        </nav>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src='js/jquery.min.js'></script>
+        <script src='js/script.js'></script>
+
+        <script>
+            
+        </script>
+
+
+</body>
+
+</html>

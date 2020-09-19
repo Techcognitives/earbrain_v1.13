@@ -1,0 +1,15 @@
+1. All cognivuePreferred data
+    	https://earbrain-7ace2.firebaseio.com/cognivuePreferred.json?
+2. cognivuePreferred data by zip
+    https://earbrain-7ace2.firebaseio.com/cognivuePreferred.json?orderBy=%22zipText%22&equalTo=%2214203%22&print=pretty
+3. cognivuePreferred data by State
+    https://earbrain-7ace2.firebaseio.com/cognivuePreferred.json?orderBy=%22stateProvince%22&equalTo=%22ME%22&print=pretty
+
+4. Us ZipCode Latitude And Longitude
+    https://earbrain-7ace2.firebaseio.com/usZipCodeLatitudeAndLongitude.json
+
+5. usZipCodeLatitudeAndLongitude by ZipCode
+   https://earbrain-7ace2.firebaseio.com/usZipCodeLatitudeAndLongitude.json?orderBy=%22zipText%22&equalTo=%2204359%22&print=pretty
+    
+6. usZipCodeLatitudeAndLongitude by ZipCode
+    https://earbrain-7ace2.firebaseio.com/usZipCodeLatitudeAndLongitude.json?orderBy=%22stateProvince%22&equalTo=%22ME%22&print=pretty 

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="description" content="Cognivue is the first computerized cognitive test cleared by the FDA and was intuitively designed to eliminate testing variables. It identifies changes in brain function that could indicate an impairment using adaptive psychophysics. ">
+  <title>Ear Brain</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqafhwbSffNhO-B6Yr4aErfIpOwHTfdQs&callback=initMap" 
+          type="text/javascript"></script>
+</head> 
+<body>
+  <div class="map-ear-container">
+    <div class="navBar">
+      <div class="home-logo">
+          <a href="index.html"><img class="logo-img" src="images\Ear Brain Health Logo-1.png" alt="EarBrain"  height="70"> </a>
+      </div>
+         <!-- <a class="learn" href="" >LEARN MORE</a> -->
+          <a  class="findsearch" href="search.html">FIND AN AUDIOLOGIST</a>
+         
+          <div class="clear"></div>
+  </div>
+    <div class="map-left-container">
+      
+      <p class="zip-code"><input id="checkboxForAllZipCode" class="other-audiology-checkbox" type="checkbox" style="zoom:1.5;vertical-align: -1px;">State<span class="zip_code_con"> 
+        <input type="number" class="zicode_input" id="zipCodeMap" max="99999"  placeholder="" oninput="validity.valid||(value='');">
+        <p class="preffered-office"><img class="preffered-office-marker" src="images/Cognivue Circles-1.png" width="30">Cognivue Preferred Audiologist</p>
+        <p class="preffered-office preffered-list-bottom"><img class="preffered-office-marker" src="images/map_pin_grey_org.png" width="20">Other Audiology Office  <input id="otherAudiologyCheckbox" class="other-audiology-checkbox" type="checkbox" style="zoom:1.5;">
+        </p>
+
+        <div id="locations">
+          <!-- <div class="preffered-list">
+            <img class="preffered-office-marker office-marker" src="images/Cognivue Circles-2.png" width="30">
+            <div>
+              <div class="office-address">
+                <p class="office-name">Ashopk</p>
+                <p class="office-address-details">Ashopk</p>
+                <p class="office-contact-details">Ashopk</p>
+                <p class="office-contact-details">Ashopk</p>
+              </div>
+            </div>
+            
+            <img class="office-logo" src="images/Screen Shot -2.png" width="30">
+            <div class="clear"></div>
+  
+          </div> -->
+        </div>
+        
+
+    </div>
+    <div class="map-right-container">
+      <div id="map"></div>
+      <button type="submit" class="findAD trigger"> CAN'T FIND THE RIGHT AU.D.</button>
+    </div>
+    <div class="clear"></div>
+    <div class="shade"></div>
+</div>
+<div class="modal login" >
+  <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <div class="dialog-bg">
+        <p class="dialog-title">Please Enter</p>
+        <div class="dialog-border">
+          <input type="text"  id="yourAudiologist" type="email" placeholder="Your Audiologist" >
+
+        </div>
+        <div class="dialog-border">
+          <input  id="practiceName" type="text" placeholder="Practice Name" >
+        </div>
+        <input type="checkbox" id="accept" name="vehicle1"  style="zoom:1.5;" >
+        <label for="accept"> I Do Not Have An Audiologist</label><br>
+        <button type="submit" class="submit"> Submit</button></a>
+        <div class="clear"></div>
+      </div>
+  </div>
+</div>
+<script src='js/bootstrap.min.js'></script>
+<script src='js/jquery.min.js'></script>
+<script src='js/script.js'></script>
+<script src='js/map.js'></script>
+
+  <script type="text/javascript">
+
+
+  var login = document.querySelector(".login");
+
+    var trigger = document.querySelector(".trigger");
+    var closeButton = document.querySelector(".close-button");
+    var submit = document.querySelector(".submit");
+
+    function toggleModal() {
+      login.classList.toggle("show-modal");
+    }
+
+    function windowOnClick(event) {
+        if (event.target === login) {
+            toggleModal();
+        }
+    }
+
+    trigger.addEventListener("click", toggleModal);
+    closeButton.addEventListener("click", toggleModal);
+    submit.addEventListener("click", toggleModal);
+    window.addEventListener("click", windowOnClick);
+  </script>
+</body>
+</html>
